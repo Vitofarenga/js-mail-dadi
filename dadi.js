@@ -8,3 +8,13 @@ else{
 
 const iaChoice = Math.floor( (Math.random() * 6) + 1);
 console.log("Il numero dell'IA è: " + iaChoice );
+
+if( userChoice == iaChoice){
+    console.log("Pareggio");
+}
+else if(userChoice < iaChoice){
+    console.log("Sconfitta");
+}
+else{
+    console.log("Vittoria")
+}
