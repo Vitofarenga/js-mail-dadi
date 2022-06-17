@@ -1,4 +1,9 @@
-const array = ['vito@libero.it', 'simone@libero.it', 'diego@libero.it', 'fede@libero.it']
+const authorized = ['vito@libero.it', 'simone@libero.it', 'diego@libero.it', 'fede@libero.it']
 let userMail = prompt("inserisci la tua mail");
-console.log(userMail);
 
+for ( let index = 0; index < authoorized.length; index++){
+    const element = authorized[index]
+    if(userMail == authorized){
+        alert('Accesso autorizzato')
+    }
+}
